@@ -1,0 +1,72 @@
+.log {
+  padding: 0;
+  background-size: cover;
+  .log-box, .box {
+    font-family: "Times New Roman";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    padding: 3vh;
+    //background: rgba(0, 0, 0, .8);
+    background-color: #fffffb;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .5);
+    border-radius: 10px;
+
+    h2 {
+      margin-bottom: 20px;
+      padding: 0;
+      //color: #fff;
+      text-align: center;
+    }
+    form {
+      .inputBox {
+        position: relative;
+        margin-bottom: 20px;
+        .ant-input{
+          border: 1px solid grey;
+        }
+      }
+      .i1 {
+        width: 100%;
+        margin-bottom: 20px;
+        border: none;
+        //border-bottom: 1px solid #fff;
+        outline: none;
+        background: transparent;
+        .ant-input{
+          border: 1px solid grey;
+        }
+      }
+
+      label {
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 10px 0;
+        font-size: 16px;
+        color: #fff;
+        pointer-events: none;
+        transition: .5s;
+      }
+
+      .sub {
+        margin-bottom: 0;
+        .button-sub {
+          color: #fff;
+          background: #0aa714;
+          padding: 0 20px;
+          cursor: pointer;
+          border-radius: 5px;
+          margin-left: 140px;
+        }
+      }
+    }
+  }
+  .box{
+    top: 370px;
+    height: 550px;
+  }
+}

@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+.contact-style{
+    width: 40%;
+    /*margin: auto auto;*/
+    margin-top: 100px;
+    p {
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        color: #761c19;
+    }
+    #contact-form{
+        max-width: 420px;
+        margin: 0 auto;
+    }
+    .form-group{
+        text-align: left;
+    }
+    .form-control {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+    }
+
+}
+
+button[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button[type=submit]:hover {
+    background-color: #45a049;
+}
+.home-style{
+    margin-top: 80px;
+}
+.product-card {
+    float: left;
+    margin-left: 45px;
+
+}
+.main-card{
+    margin-top: 50px;
+}
